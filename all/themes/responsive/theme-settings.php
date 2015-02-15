@@ -129,4 +129,10 @@ function responsive_form_system_theme_settings_alter(&$form, &$form_state) {
     '#default_value' => theme_get_setting('github_url', 'responsive'),
 	  '#description'   => t("Enter your GitHub Profile URL. Leave blank to hide."),
   );  
+  $form['resp_settings']['socialicon']['stack_url'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Stack Overflow Profile URL'),
+    '#default_value' => theme_get_setting('stack_url', 'responsive'),
+	  '#description'   => t("Enter your Stack Overflow Profile URL. Leave blank to hide."),
+  );    
 }
