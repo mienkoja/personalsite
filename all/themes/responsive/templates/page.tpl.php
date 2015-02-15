@@ -95,7 +95,7 @@
       <?php if ($linkedin_url): ?><li> <a href="<?php print $linkedin_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/in.png"> </a> </li> <?php endif; ?>
       <?php if ($stack_url): ?><li> <a href="<?php print $stack_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/stack.png"> </a> </li> <?php endif; ?>  
       <?php if ($github_url): ?><li> <a href="<?php print $github_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/github.png"> </a> </li> <?php endif; ?>      
-      <?php if ($scholar_url): ?><li> <a href="<?php print $scholar_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/scholar.png"> </a> </li> <?php endif; ?
+      <?php if ($scholar_url): ?><li> <a href="<?php print $scholar_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/scholar.png"> </a> </li> <?php endif; ?>
       <li> <a href="<?php print $front_page; ?>rss.xml"> <img src="<?php print $theme_path_social; ?>/images/rss.png"> </a> </li>
         </ul>
       </div>
