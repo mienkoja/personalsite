@@ -83,6 +83,7 @@
       $googleplus_url = check_plain(theme_get_setting('googleplus_url', 'responsive')); 
       $linkedin_url = check_plain(theme_get_setting('linkedin_url', 'responsive')); 
       $github_url = check_plain(theme_get_setting('github_url', 'responsive')); 
+      $stack_url = check_plain(theme_get_setting('stack_url', 'responsive'));       
       $theme_path_social = base_path() . drupal_get_path('theme', 'responsive');
       ?>
       <div id="socialbar">
@@ -91,6 +92,7 @@
       <?php if ($facebook_url): ?><li> <a href="<?php print $facebook_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/facebook.png"> </a> </li> <?php endif; ?>
       <?php if ($googleplus_url): ?><li> <a href="<?php print $googleplus_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/gplus.png"> </a> </li> <?php endif; ?>
       <?php if ($linkedin_url): ?><li> <a href="<?php print $linkedin_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/in.png"> </a> </li> <?php endif; ?>
+      <?php if ($stack_url): ?><li> <a href="<?php print $stack_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/stack.png"> </a> </li> <?php endif; ?>  
       <?php if ($github_url): ?><li> <a href="<?php print $github_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/github.png"> </a> </li> <?php endif; ?>      
       <li> <a href="<?php print $front_page; ?>rss.xml"> <img src="<?php print $theme_path_social; ?>/images/rss.png"> </a> </li>
         </ul>
