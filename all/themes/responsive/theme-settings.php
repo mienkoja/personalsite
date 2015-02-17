@@ -135,4 +135,10 @@ function responsive_form_system_theme_settings_alter(&$form, &$form_state) {
     '#default_value' => theme_get_setting('stack_url', 'responsive'),
 	  '#description'   => t("Enter your Stack Overflow Profile URL. Leave blank to hide."),
   );    
+  $form['resp_settings']['socialicon']['scholar_url'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Google Scholar Profile URL'),
+    '#default_value' => theme_get_setting('scholar_url', 'responsive'),
+	  '#description'   => t("Enter your Google Scholar Profile URL. Leave blank to hide."),
+  );      
 }
